@@ -1,7 +1,11 @@
 // Your code goes here
 
 //mouseover
-
+let busPic = document.querySelector(".intro img");
+busPic.addEventListener('mouseover', (event) => {
+    busPic.style.opacity = "0.2";
+    event.stopPropagation();
+});
 
 //keydown (any key pressed)
 
